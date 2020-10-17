@@ -71,10 +71,10 @@ def main():
 
 main()
 
-play_again = True
-while play_again:
+active = True
+while active:
     again = str(input("Do you want to play again?ENter Y/N:"))
     if again.lower() == "y":
         main()
     else:
-        play_again = False
+        active = False
